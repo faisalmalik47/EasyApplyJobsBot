@@ -26,7 +26,7 @@ class Linkedin:
                     self.driver.find_element("id","password").send_keys(config.password)
                     time.sleep(2)
                     self.driver.find_element("xpath",'//button[@type="submit"]').click()
-                    time.sleep(30)
+                    time.sleep(20)
                 except:
                     utils.prRed("❌ Couldn't log in Linkedin by using Chrome. Please check your Linkedin credentials on config files line 7 and 8.")
 
