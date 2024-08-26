@@ -5,7 +5,7 @@ browser = ["Chrome"]
 # Enter your Linkedin password and username below. Do not commit this file after entering these credentials.
 # Linkedin credentials
 email = "malikf951@gmail.com"
-password = "Philix@00744542"
+password = ""
 
 #PRO FEATURE - Optional! run browser in headless mode, no browser screen will be shown it will work in background.
 headless = False
